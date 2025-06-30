@@ -1,0 +1,97 @@
+ 1  cd C:/Users/nikhi/.ssh
+    2  ls
+    3  chmod 400 "id_rsa"
+    4  ssh -i .\id_rsa ubuntu@43.204.112.224
+    5  ls
+    6  cd Documents
+    7  ls
+    8  mkdir terraform
+    9  ls
+   10  cd terraform/
+   11  mkdir dir1
+   12  ls
+   13  cd dir1/
+   14  nano file1.tf
+   15  terraform init
+   16  terraform plan
+   17  ls
+   18  ls -a
+   19  la -la
+   20  ls -la
+   21  nano file1.tf
+   22  terraform plan
+   23  nano file1.tf
+   24  terraform validate
+   25  terraform plan
+   26  terraform apply
+   27  nano file1.tf 
+   28  terraform validate
+   29  terraform apply
+   30  nano file1.tf
+   31  terraform validate
+   32  terraform apply
+   33  nano file1.tf
+   34  nano file1.tf
+   35  terraform validate
+   36  terraform apply
+   37  terraform destroy
+   38  ls
+   39  cd Documents/
+   40  ls
+   41  ls -la
+   42  cd ..
+   43  ls
+   44  cd OneDrive/
+   45  ls
+   46  cd Documents/
+   47  ls
+   48  rm -rf Virtual\ Machines/
+   49  ls
+   50  rm -rf 'Virtual Machines'
+   51  sudo rm -rf 'Virtual Machines'
+   52  ls
+   53  pwd
+   54  sudo mkdir ubuntu
+   55  mkdir ubuntu
+   56  ls
+   57  cd ubuntu/
+   58  code .
+   59  cd Downloads
+   60  chmod 400 Kubernetes.pem
+   61  sudo su
+   62  ssh -i Kubernetes.pem ubuntu@ec2-54-145-237-6
+   63  ssh -i Kubernetes.pem ubuntu@ec2-54-145-237-6.compute-1.amazonaws.com
+   64  ssh -i Kubernetes.pem ubuntu@ec2-54-145-237-6.compute-1.amazonaws.com
+   65  ls
+   66  mkdir Git
+   67  cd Git/
+   68  cd ..
+   69  mkdir github-for-devops-ws
+   70  cd github-for-devops-ws/
+   71  touch testing.py
+   72  python testing.py
+   73  ls
+   74  ls -l
+   75  rm testing .py
+   76  rm testing.py
+   77  git init
+   78  ls -la
+   79  git status
+   80  git status
+   81  ls
+   82  ls
+   83  git status
+   84  git add testing.py
+   85  git status
+   86  git rm --cached testing.py
+   87  git status
+   88  git add .
+   89  git status
+   90  git commit -m "added testing files"
+   91  git status
+   92  rm testing.py
+   93   git status
+   94  git restore testing.py
+   95  git status
+   96  git status
+   97  history
