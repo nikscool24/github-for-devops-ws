@@ -1,4 +1,5 @@
- 1  cd C:/Users/nikhi/.ssh
+$ history
+    1  cd C:/Users/nikhi/.ssh
     2  ls
     3  chmod 400 "id_rsa"
     4  ssh -i .\id_rsa ubuntu@43.204.112.224
@@ -24,7 +25,7 @@
    24  terraform validate
    25  terraform plan
    26  terraform apply
-   27  nano file1.tf 
+   27  nano file1.tf
    28  terraform validate
    29  terraform apply
    30  nano file1.tf
@@ -95,3 +96,15 @@
    95  git status
    96  git status
    97  history
+   98  git status
+   99  git add git_command.txt
+  100  git status
+  101  git commit -m "added git commands"
+  102  git status
+  103  git remote add origin https://github.com/nikscool24/github-for-devops-ws.git
+  104  git remote -v
+  105  git push origin master
+  106  git remote set-url origin https://token@github.com/nikscool24/github-for-devops-ws.git
+  107  git remote -v
+  108  git push origin master
+  109  history
