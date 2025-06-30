@@ -108,3 +108,4 @@ $ history
   107  git remote -v
   108  git push origin master
   109  history
+some new changes added from github
